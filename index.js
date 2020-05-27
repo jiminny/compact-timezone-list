@@ -33,7 +33,7 @@
  *
  * @type {Array.<{ offset: string, label: string, shortLabel: string, tzCode: string }>}
  */
-export var minimalTimezoneSet = [
+exports.minimalTimezoneSet = [
   { offset: '-11:00', label: '(GMT-11:00) Pago Pago', shortLabel: 'GMT-11', tzCode: 'Pacific/Pago_Pago' },
   { offset: '-10:00', label: '(GMT-10:00) Hawaii Time', shortLabel: 'GMT-10', tzCode: 'Pacific/Honolulu' },
   { offset: '-10:00', label: '(GMT-10:00) Tahiti', shortLabel: 'GMT-10', tzCode: 'Pacific/Tahiti' },
